@@ -1,0 +1,15 @@
+http://www.brokenthorn.com/Resources/OSDevIndex.html
+
+
+https://github.com/SamyPesse/How-to-Make-a-Computer-Operating-System
+https://www.gitbook.io/book/SamyPesse/how-to-create-an-operating-system
+
+
+http://www.wikihow.com/Make-a-Computer-Operating-System
+http://www.acm.uiuc.edu/sigops/roll_your_own/
+http://wiki.osdev.org/Main_Page
+http://linuxgazette.net/issue77/krishnakumar.html
+http://gusc.lv/2012/11/im-writing-my-own-os/
+http://www.cl.cam.ac.uk/projects/raspberrypi/tutorials/os/
+http://www.linuxdoc.org/HOWTO/Assembly-HOWTO/ownos.html
+http://en.wikibooks.org/wiki/Operating_System_Design/Print_Version

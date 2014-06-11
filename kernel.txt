@@ -1,0 +1,2 @@
+gcc -c my_kernel.c
+ld my_kernel.o -o kernel.bin --oformat=binary -Ttext=0x100000

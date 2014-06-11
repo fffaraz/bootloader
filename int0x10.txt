@@ -1,0 +1,9 @@
+INT 0x10 is a BIOS video interrupt. All the video related calls are made through this interrupt.
+To use this interrupt we need to set the values of some register.
+AL = ASCII value of character to display
+AH = 0x0E ;Teletype mode (This will tell bios that we want to print one character on screen)
+BL = Text Attribute (This will be the fore ground and background color
+  	 of character to be displayed. 0x07 in our case.)
+BH = Page Number (0x00 for most of the cases)
+
+Once all the registers all filled with appropriate value, we can call interrupt.

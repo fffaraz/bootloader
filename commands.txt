@@ -1,0 +1,11 @@
+nasm ourbootloader.asm -f bin -o boot.bin
+partcopy boot.bin 0 200 -f0
+dd if=boot.bin bs=512 of=/dev/fd0
+
+
+nasm boot.asm -f bin -o boot.bin
+VBoxManage convertfromraw boot.bin boothdd.vdi
+
+
+dd if=/dev/sda of=mbr.bin bs=512 count=1
+sudo parted /dev/sda unit s print
