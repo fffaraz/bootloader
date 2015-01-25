@@ -1,0 +1,1 @@
+https://www.devimperium.com/tutorials/start_your_small_operating_system_in_assembly
